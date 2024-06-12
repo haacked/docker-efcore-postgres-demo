@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  postgres:
+    container_name: 'postgres'
+    image: postgres
+    environment:
+      # change this for a "real" app!
+      POSTGRES_PASSWORD: password
